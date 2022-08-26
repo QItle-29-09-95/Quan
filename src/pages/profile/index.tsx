@@ -7,7 +7,7 @@ import { ProfileItems } from '../../components/profile/ProfileItems';
 import { Main } from '../../layout/public/Main';
 import { Meta } from '../../layout/public/Meta';
 import { Content } from '../../shares/components/content/Content';
-import { VintageHeader } from '../../shares/components/title/VintageHeader';
+import { VintageTitle } from '../../shares/components/title/VintageTitle';
 import { AppConfig } from '../../utils/AppConfig';
 
 const Profile = () => (
@@ -17,7 +17,7 @@ const Profile = () => (
     <Content>
       <div className="container-fluid other-page flex">
         <div className='left-side'>
-          <VintageHeader title='Profile' />
+          <VintageTitle title='Profile' />
         </div>
         <div className='right-side'>
           <AboutProfile/>

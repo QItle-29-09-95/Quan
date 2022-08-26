@@ -5,7 +5,7 @@ import { TableInfoList } from '../../components/infomation/TableInfoList';
 import { Main } from '../../layout/public/Main';
 import { Meta } from '../../layout/public/Meta';
 import { Content } from '../../shares/components/content/Content';
-import { VintageHeader } from '../../shares/components/title/VintageHeader';
+import { VintageTitle } from '../../shares/components/title/VintageTitle';
 import { AppConfig } from '../../utils/AppConfig';
 
 const Infomation = () => (
@@ -15,7 +15,7 @@ const Infomation = () => (
     <Content>
       <div className="container-fluid other-page flex">
         <div className='left-side'>
-          <VintageHeader title='Infomation' />
+          <VintageTitle title='Infomation' />
         </div>
         <div className='right-side'>
           <TableInfoList />

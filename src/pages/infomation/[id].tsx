@@ -5,7 +5,7 @@ import { AppConfig } from "../../utils/AppConfig";
 import { InfomationGetDetail } from '../../components/infomation/InfomationGetDetail';
 import {useRouter} from 'next/router'
 import { Content } from '../../shares/components/content/Content';
-import { VintageHeader } from '../../shares/components/title/VintageHeader';
+import { VintageTitle } from '../../shares/components/title/VintageTitle';
 
 const InfomationDetail = () => {
   const router = useRouter()
@@ -17,7 +17,7 @@ const InfomationDetail = () => {
     <Content>
       <div className="container-fluid other-page flex">
         <div className='left-side'>
-          <VintageHeader title='Infomation Detail' />
+          <VintageTitle title='Infomation Detail' />
         </div>
         <div className='right-side'>
           {

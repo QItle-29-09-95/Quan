@@ -1,10 +1,10 @@
 
-type IVintageHeader = {
+type IVintageTitle = {
   title: string;
   img?:string;
   icon?:string
 }
-const VintageHeader = (props: IVintageHeader) => (
+const VintageTitle = (props: IVintageTitle) => (
   <div className="vintage-header">
    {props.icon}
     <h2>{props.title}</h2>
@@ -12,4 +12,4 @@ const VintageHeader = (props: IVintageHeader) => (
   </div>
 );
 
-export { VintageHeader };
+export { VintageTitle };
