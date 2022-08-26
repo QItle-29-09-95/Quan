@@ -51,11 +51,7 @@ const SliderEvent = () => {
               <div className="image inside inside-left">
                 <img src="./assets/images/imgEvent1.png" alt="" />
               </div>
-              <div className="detail inside inside-right">
-                <p className="title">TOMAの謎解きタイム</p>
-                <p className="content">22.7.14 12:00start</p>
-                <p className="author">＠岐阜・高山</p>
-              </div>
+            
             </div>
           </div>
         </a>
@@ -65,11 +61,7 @@ const SliderEvent = () => {
               <div className="image inside inside-left">
                 <img src="./assets/images/imgEvent2.png" alt="" />
               </div>
-              <div className="detail inside inside-right">
-                <p className="title">TOMA SOURCE LIVE</p>
-                <p className="content">22.6.14 15:00start</p>
-                <p className="author">＠横浜アリーナ</p>
-              </div>
+             
             </div>
           </div>
         </a>

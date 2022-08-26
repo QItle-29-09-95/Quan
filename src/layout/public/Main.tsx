@@ -9,7 +9,7 @@ type IMainProps = {
 };
 
 const Main = (props: IMainProps) => (
-  <div className="antialiased w-full text-gray-700 px-3 md:px-0">
+  <div >
     {props.meta}
     <div className="body">
       <Header></Header>

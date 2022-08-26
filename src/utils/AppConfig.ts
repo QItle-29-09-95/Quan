@@ -1,7 +1,7 @@
 export const AppConfig = {
-  site_name: 'Toma Source Office',
-  title: 'Toma Source',
-  description: 'Toma Source Office',
+  site_name: 'OCC Office',
+  title: 'OCC',
+  description: 'OCC Office',
   url: '',
   locale: 'en',
   author: 'Anonymous',
