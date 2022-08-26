@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import * as request from '../../api/infomation/InfomationServices';
-import { Overlay } from '../../layout/child-layout/overlay/Overlay';
 import * as formatData from '../../utils/FormatData'
 import ReactHtmlParser from 'react-html-parser';
 import { useRouter } from 'next/router'
+import { Overlay } from '../../shares/components/overlay/Overlay';
 
 type Request = {
   id: string

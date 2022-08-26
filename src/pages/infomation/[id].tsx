@@ -1,10 +1,11 @@
 import { Main } from '../../layout/public/Main';
-import { Content } from "../../layout/child-layout/content/Content";
-import { VintageHeader } from "../../layout/child-layout/vintage-header/VintageHeader";
+
 import { Meta } from "../../layout/public/Meta";
 import { AppConfig } from "../../utils/AppConfig";
 import { InfomationGetDetail } from '../../components/infomation/InfomationGetDetail';
 import {useRouter} from 'next/router'
+import { Content } from '../../shares/components/content/Content';
+import { VintageHeader } from '../../shares/components/title/VintageHeader';
 
 const InfomationDetail = () => {
   const router = useRouter()

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import * as request from '../../api/infomation/InfomationServices';
 import * as formatData from '../../utils/FormatData'
 import { useRouter } from 'next/router'
-import { Overlay } from '../../layout/child-layout/overlay/Overlay';
+import { Overlay } from '../../shares/components/overlay/Overlay';
 
 
 type IInfos = {

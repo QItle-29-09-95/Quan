@@ -1,7 +1,7 @@
 import React from 'react';
-import { Content } from '../../layout/child-layout/content/Content';
 import { MainPrivate } from '../../layout/private/MainPrivate';
 import { Meta } from '../../layout/public/Meta';
+import { Content } from '../../shares/components/content/Content';
 import { AppConfig } from '../../utils/AppConfig';
 
 const Login = () => (

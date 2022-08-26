@@ -12,9 +12,9 @@ import { Profile } from "../components/index/Profile";
 import { Promotion } from "../components/index/Promotion";
 import { SliderEvent } from "../components/index/SliderEvent";
 import { TableInfomation } from "../components/index/TableInfomation";
-import { Content } from "../layout/child-layout/content/Content";
 import { Main } from "../layout/public/Main";
 import { Meta } from "../layout/public/Meta";
+import { Content } from "../shares/components/content/Content";
 import { AppConfig } from "../utils/AppConfig";
 
 const Index = () => (

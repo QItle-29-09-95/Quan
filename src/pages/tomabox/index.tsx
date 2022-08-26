@@ -2,9 +2,9 @@ import React from 'react';
 import { ListPromo } from '../../components/tomabox/ListPromo';
 import { ListSubcription } from '../../components/tomabox/ListSubcription';
 
-import { Content } from '../../layout/child-layout/content/Content';
 import { Main } from '../../layout/public/Main';
 import { Meta } from '../../layout/public/Meta';
+import { Content } from '../../shares/components/content/Content';
 import { AppConfig } from '../../utils/AppConfig';
 
 const Profile = () => (

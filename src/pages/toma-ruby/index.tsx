@@ -3,9 +3,9 @@ import { HeaderSubcriptLogo } from '../../components/tomabox-subcription/HeaderS
 import { PhotoGallery } from '../../components/tomabox-subcription/PhotoGallery';
 import { QuestionAndAnswer } from '../../components/tomabox-subcription/QuestionAndAnswer';
 import { TableListInfomationSubcription } from '../../components/tomabox-subcription/TableListInfomationSubcription';
-import { Content } from '../../layout/child-layout/content/Content';
 import { MainPrivate } from '../../layout/private/MainPrivate';
 import { Meta } from '../../layout/public/Meta';
+import { Content } from '../../shares/components/content/Content';
 import { AppConfig } from '../../utils/AppConfig';
 
 const TomaRuby = () => (

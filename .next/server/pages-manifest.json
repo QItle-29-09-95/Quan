@@ -1,6 +1,18 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/discography": "pages/discography.html",
+  "/event": "pages/event.html",
+  "/": "pages/index.html",
+  "/infomation/[id]": "pages/infomation/[id].html",
+  "/infomation": "pages/infomation.html",
+  "/login": "pages/login.html",
+  "/media": "pages/media.html",
+  "/profile": "pages/profile.html",
+  "/toma-emerald": "pages/toma-emerald.html",
+  "/toma-ruby": "pages/toma-ruby.html",
+  "/toma-sapphire": "pages/toma-sapphire.html",
+  "/tomabox": "pages/tomabox.html",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
